@@ -1,4 +1,7 @@
 
+body{
+    font-family: 'M PLUS Rounded 1c', sans-serif; 
+}
 #header{
     background-color: #F5F5F5;
     width: 100%;
@@ -9,6 +12,12 @@
     text-align: center;
 
 }
+
+h1{
+    padding-top: 2%;
+    font-family: 'Raleway', sans-serif;
+}
+
 nav {
     position: absolute;
     left: 0px;
@@ -80,7 +89,7 @@ main{
     float: left;
 }
 body{
-    height: 800px;
+    height: 750px;
 }
 footer{
     background-color: #F5F5F5;
@@ -89,7 +98,7 @@ footer{
     text-align: center;
 }
 .card-body{
-    text-align:left;
+    text-align:center;
     font: black;
     background-color: #F5F5F5;
 }
@@ -106,6 +115,63 @@ a.btn.btn-primary{
 }
 
 .card-header{
-text-align:left;
+text-align:center;
 color: black;
 }
+
+.main-home{
+    margin: 0 auto;
+}
+
+
+.text-home{
+   width: 40%;
+   margin: 0 auto;
+   margin-top: 5%;
+}
+.text-home p{
+text-align:center;
+margin-bottom: 0%;
+font-family: 'M PLUS Rounded 1c', sans-serif; 
+ }
+ 
+
+ 
+.text-bilder{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 5%;
+ }
+ .text-bilder p{
+ text-align:center;
+ margin-bottom: 0%;
+  }
+
+   
+.text-video{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 5%;
+ }
+ .text-video p{
+ text-align:center;
+ margin-bottom: 0%;
+  }
+
+  .text-audio{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 5%;
+ }
+ .text-audio p{
+ text-align:center;
+ margin-bottom: 0%;
+  }
+
+  #audio{
+    width: 30%;
+    margin: 0 auto;
+    margin-left:35%;
+    margin-top: 5%;
+  }
+  
