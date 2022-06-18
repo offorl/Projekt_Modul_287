@@ -10,29 +10,41 @@
 
 <body >
 <header>
-
+    <!-- grösse main bestimmen-->
     <div id="header">
 
 
-        <h1>Audio</h1>
+        <!-- Titel der pages-->
+        <div class="container">
+            <div class="row titelbtst">
+                <div class="col-xs-12">
+                    <h1>Audio</h1>
+                </div>
+            </div>
+        </div>
+
 
         <!-- navigation -->
-        <nav>
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link " href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="bilder_v2.html">Bilder</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="video.html">Video</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="audio.html">Audio</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="row navbtst">
+                <div class="col-xs-12">
+                    <ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="bilder_v2.html">Bilder</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="video.html">Video</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="audio.html">Audio</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
 
     </div>
 
@@ -41,11 +53,25 @@
 </header>
 
 <main>
-    <div class="text-audio"> 
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
-        
-            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    <!-- text mit grid-system -->
+    <div class="container">
+        <div class="row textbts">
+            <div class="text-video col-xs-3">
+                <p>Das Video wurde ebenfalls von Danio entworfen. Wie auch die Bilder wurde es in Brütten gedreht. Hierbei sieht man sehr viele Ähnlichkeit mit den Bildern,
+                    da es meist eine Aufnahme der verwendeten Bilder ist. Somit können wir das Thema Architektur noch näher bringen und spannende Einblicke gewähren. Leider
+                    Gingen einige Tolle aufnahmen beim rüberladen flöten. <br>Die Aufnahmen wurden noch in Premiere Pro zusammen geschnitten.
+                </p>
+            </div>
         </div>
+    </div>
+
+
+    <!-- audio -->
+    <div class="container">
+        <div class="row audioimgbts">
+            <img src="audio-assests/sound-icon.svg" alt="" class="audioimg col-xs-3">
+        </div>
+    </div>
     <audio id="audio" controls>
         <source src="uf.ogg" type="audio/ogg">
         <source src="Hallo.wav" type="audio/wav">
@@ -65,7 +91,7 @@
         <div class="card-body">
           <h5 class="card-title">Architektur</h5>
           <p class="card-text">© Architektur 2022 - 2025. Alle Rechte vorbehalten.</p>
-          <a href="../index.html" class="btn btn-primary">back</a>
+          <a href="../index.html" class="btn btn-primary">back to Home</a>
         </div>
       </div>
 

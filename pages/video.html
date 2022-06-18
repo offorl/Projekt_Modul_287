@@ -11,46 +11,69 @@
 <body >
 <header>
 
+    <!--grösse header bestimmen-->
     <div id="header">
 
-
-        <h1>Video</h1>
+        <!-- Titel der pages-->
+        <div class="container">
+            <div class="row titelbtst">
+                <div class="col-xs-12">
+                    <h1>Video</h1>
+                </div>
+            </div>
+        </div>
 
         <!-- navigation -->
-        <nav>
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link " href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="bilder_v2.html">Bilder</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="video.html">Video</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="audio.html">Audio</a>
-                </li>
-            </ul>
-        </nav>
-
-    </div>
+        <div class="container">
+            <nav class="row navbtst">
+                <div class="col-xs-12">
+                    <ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="bilder_v2.html">Bilder</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="video.html">Video</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="audio.html">Audio</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
 
 
 
 </header>
-
-<main>
-    <div class="text-video"> 
-        <p>Das Video wurde ebenfalls von Danio entworfen. Wie auch die Bilder wurde es in Brütten gedreht. Hierbei sieht man sehr viele Ähnlichkeit mit den Bildern,
-            da es meist eine Aufnahme der verwendeten Bilder ist. Somit können wir das Thema Architektur noch näher bringen und spannende Einblicke gewähren. Leider
-            Gingen einige Tolle aufnahmen beim rüberladen flöten. <br>Die Aufnahmen wurden noch in Premiere Pro zusammen geschnitten.
-        </p>
+<!--grösse main bestimmen-->
+<main class="videomain">
+    <!-- text mit grid-system -->
+    <div class="container">
+        <div class="row textbts">
+            <div class="text-video col-xs-3">
+                <p>Das Video wurde ebenfalls von Danio entworfen. Wie auch die Bilder wurde es in Brütten gedreht. Hierbei sieht man sehr viele Ähnlichkeit mit den Bildern,
+                    da es meist eine Aufnahme der verwendeten Bilder ist. Somit können wir das Thema Architektur noch näher bringen und spannende Einblicke gewähren. Leider
+                    Gingen einige Tolle aufnahmen beim rüberladen flöten. <br>Die Aufnahmen wurden noch in Premiere Pro zusammen geschnitten.
+                </p>
+            </div>
+        </div>
     </div>
 
-    <video width="854" height="480" controls>
-        <source src="../video/short_story.mp4" type=video/mp4>
-    </video>
+    <!-- video-->
+    <div class="container">
+        <div class="row videobts">
+            <div class="text-video col-xs-3">
+            <video width="854" height="480" controls>
+                <source src="../video/short_story.mp4" type=video/mp4>
+            </video>
+            </div>
+        </div>
+    </div>
+
+
 </main>
 
 
@@ -63,7 +86,7 @@
         <div class="card-body">
           <h5 class="card-title">Architektur</h5>
           <p class="card-text">© Architektur 2022 - 2025. Alle Rechte vorbehalten.</p>
-          <a href="../index.html" class="btn btn-primary">back</a>
+          <a href="../index.html" class="btn btn-primary">back to ome</a>
         </div>
       </div>
 

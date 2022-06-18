@@ -2,22 +2,21 @@
 body{
     font-family: 'M PLUS Rounded 1c', sans-serif; 
 }
+
+/*header*/
 #header{
     background-color: #F5F5F5;
     width: 100%;
     height: 150px;
     text-align: center;
 }
+
 #header nav {
     text-align: center;
 
 }
 
-h1{
-    padding-top: 2%;
-    font-family: 'Raleway', sans-serif;
-}
-
+/*navigation*/
 nav {
     position: absolute;
     left: 0px;
@@ -51,46 +50,41 @@ nav ul li a:hover{
 nav ul li a.active {
     border-bottom: 3px solid gray;
 }
+
+
+/*main*/
+h1{
+    padding-top: 2%;
+    font-family: 'Raleway', sans-serif;
+}
+
 main{
     height:600px;
 }
 
-.bildone  {
-    width: 20%;
-    height: 20%;
-    float:left;
+/*spezielle main grössen*/
+.mainbilder{
+    height: 1100px;
 }
+.videomain{
+    height: 800px;
+}
+
+.main-home{
+    margin: 0 auto;
+}
+
+
+/*
 .img-thumbnail{
 
     boder: green;
-
-}
-.bildtwo {
-    width: 20%;
-    height: 20%;
-    float: left;
 }
 
-.bild3 {
-    width: 20%;
-    height: 20%;
-    float: left;
-}
+ */
 
-.bild4 {
-    width: 20%;
-    height: 20%;
-    float: left;
-}
 
-.bild5 {
-    width: 20%;
-    height: 20%;
-    float: left;
-}
-body{
-    height: 750px;
-}
+/*footer*/
 footer{
     background-color: #F5F5F5;
     width: 100%;
@@ -119,27 +113,18 @@ text-align:center;
 color: black;
 }
 
-.main-home{
-    margin: 0 auto;
-}
-
-
+/*befehle für den text home*/
 .text-home{
-   width: 40%;
-   margin: 0 auto;
    margin-top: 5%;
 }
 .text-home p{
 text-align:center;
 margin-bottom: 0%;
-font-family: 'M PLUS Rounded 1c', sans-serif; 
  }
- 
 
- 
+
+/*befehle für den text bilder*/
 .text-bilder{
-    width: 40%;
-    margin: 0 auto;
     margin-top: 5%;
  }
  .text-bilder p{
@@ -147,10 +132,8 @@ font-family: 'M PLUS Rounded 1c', sans-serif;
  margin-bottom: 0%;
   }
 
-   
+/*befehle für den text video*/
 .text-video{
-    width: 40%;
-    margin: 0 auto;
     margin-top: 5%;
  }
  .text-video p{
@@ -158,9 +141,8 @@ font-family: 'M PLUS Rounded 1c', sans-serif;
  margin-bottom: 0%;
   }
 
+/*befehle für den text audio*/
   .text-audio{
-    width: 40%;
-    margin: 0 auto;
     margin-top: 5%;
  }
  .text-audio p{
@@ -168,10 +150,34 @@ font-family: 'M PLUS Rounded 1c', sans-serif;
  margin-bottom: 0%;
   }
 
+/*audio feld*/
   #audio{
     width: 30%;
     margin: 0 auto;
     margin-left:35%;
     margin-top: 5%;
   }
-  
+
+/*sound icon*/
+.audioimg{
+    height: 75px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+/*bootstrap*/
+.titelbtst{
+    display: inline-flex !important;
+}
+.navbtst{
+    justify-content: center;
+}
+.textbts{
+    display: inline-flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+}
+
+.videobts{
+    justify-content: center;
+}
